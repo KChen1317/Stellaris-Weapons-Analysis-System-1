@@ -6,3 +6,21 @@ Feel free to fork and/or create pull requests.
 Released versions:
 
 V.1
+
+
+
+FAQ:
+  How do I run this program?
+    First, download Python 3 (link:https://www.python.org/downloads/release/python-380/).
+    Then, download the zip file of the version of SWAS you want to use and unpack it.
+    Finally, run SWAS as you would with any other program(ie clicking on the icon).
+    Please note that there are example inputs in the program.
+    Said exaples can be displayed by enetering the following:
+     no
+     [enter]
+     yes
+     
+     
+Contact:
+  github_anon@protonmail.com
+  u/Wise_plan
