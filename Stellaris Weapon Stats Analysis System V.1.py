@@ -23,7 +23,7 @@ def main():
 
 def banner():
     print("######### Stellaris Weapon Stats Analysis System ######### \n#########                  V.1.                  #########")
-    print("\n\n                   Created By Kevin Chen")
+    print("\n\n                   Created By Kevin Chen\n\nHosted on Github\nhttps://github.com/Kchen833/Stellaris-Weapons-Analysis-System")
     print("\n\n\n\n")
 
 
