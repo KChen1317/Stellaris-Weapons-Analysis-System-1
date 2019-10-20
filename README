@@ -1,12 +1,13 @@
 Stellaris Weapons Analysis System
 
-This is the public repository for the S.W.A.S. code.
-Feel free to fork and/or create pull requests.
+----NOTE----
+You are on the CURRENT branch.
+This means that the code and zip file will only have the most recent stable version released.
+If you want previous versions, see  master branch.
 
-Released versions:
+Still, feel free to fork and/or create pull requests.
 
--V.1
---V.1.0.1
+Present version: V.1.0.1
 
 
 FAQ:
