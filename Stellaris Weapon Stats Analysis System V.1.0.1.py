@@ -119,8 +119,7 @@ def set_up():
     input_complete="no"
     target_data=1
     weapon_data=1
-    print("----Set up has started----")
-    
+    print("----Set up has started----") 
     while(input_complete!="correct"):                    ####loops until data entry is confirmed####
         target_data_correct="no"
         while(target_data_correct!="correct"):
@@ -156,7 +155,7 @@ def set_up():
             weapon_tracking=input("weapon tracking?--->")
             print("\nThe following weapon data has been entered:\n"+"Min dmg:"+str(weapon_min_dmg)+"  Max dmg:"+str(weapon_max_dmg)+"\nHull bonus:"+str(weapon_hull_bonus)+" Armor pen:"+str(weapon_armor_pen)+"  Armor bonus:"+str(weapon_armor_bonus)+"  Shield pen:"+str(weapon_shield_pen)+"  Shield bonus:"+str(weapon_shield_bonus)+"\nAccurancy:"+str(weapon_accurancy)+"  Tracking:"+str(weapon_tracking))
             weapon_data_correct=input("If the weapon data is correct is correct\nEnter correct\nelse enter any other input\n----->")
-        input_error="none"                                ####tracks the prescenc of errors####
+        input_error="none"                                ####tracks the presence of errors####
         try:
             target_data={"hull":int(target_hull),"armor":int(target_armor),"shield":int(target_shield),"regen on":enable_regen_calc,"hull regen":float(target_hull_regen),"armor regen":float(target_armor_regen),"shield regen":float(target_shield_regen),"evasion":float(target_evasion)}
             weapon_data={"min dmg":int(weapon_min_dmg),"max dmg":int(weapon_max_dmg),"hull bonus":float(weapon_hull_bonus),"armor pen":float(weapon_armor_pen),"armor bonus":float(weapon_armor_bonus),"shield pen":float(weapon_shield_pen),"shield bonus":float(weapon_shield_bonus),"accurancy":float(weapon_accurancy),"tracking":float(weapon_tracking)}
